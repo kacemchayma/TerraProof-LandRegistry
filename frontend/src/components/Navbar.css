@@ -1,0 +1,61 @@
+/* ----------------------------------------------------
+   🌿 NAVBAR — TerraProof
+-----------------------------------------------------*/
+
+.nav-bar {
+  width: 100%;
+  padding: 14px 32px;
+  background: rgba(255, 255, 255, 0.92);
+  border-bottom: 1px solid #cfe7d0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  backdrop-filter: blur(10px);
+  position: sticky;
+  top: 0;
+  z-index: 20;
+}
+
+.nav-brand {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.nav-logo {
+  font-size: 22px;
+}
+
+.nav-title {
+  font-weight: 700;
+  color: #2e7d32; /* vert TerraProof */
+  font-size: 18px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 18px;
+}
+
+.nav-link {
+  padding: 8px 16px;
+  border-radius: 999px;
+  text-decoration: none;
+  font-size: 15px;
+  color: #1b5e20;  /* vert foncé */
+  background: transparent;
+  transition: 0.25s ease;
+  font-weight: 500;
+}
+
+.nav-link:hover {
+  background: #e8f5e9; /* vert très léger */
+  color: #1b5e20;
+}
+
+.nav-link.active {
+  background: #2e7d32; /* vert principal */
+  color: white;
+  font-weight: 600;
+  box-shadow: 0 3px 10px rgba(46, 125, 50, 0.25);
+}
